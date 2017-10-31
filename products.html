@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>RPUP | Products</title>
+<link rel="icon" href="favicon.ico"/>
+<link rel="stylesheet" type="text/css" href="main.css"/>
+
+</head>
+<body onscroll="myFunction()">
+
+<div class="header">
+  <h2>RPU Programming</h2>
+  <p>For the Betterment</p>
+</div>
+
+<div id="navbar">
+	<a href="index.html">Home</a>
+	<a class="active" href="javascript:void(0)">Products</a>
+	<a href="news.html">News</a>
+	<a href="javascript:void(0)">Contact</a>
+</div>
+
+<div class="content">
+	<h3>Products</h3>
+	<p>Welcome to our Products Page</p>
+	<div id="games">
+		<a href="game-roh.html">
+			<img src="comingsoon.png" alt="Smiley face" height="500" width="375">
+			<p>Revival of Humanity</p>
+		</a>
+	</div>
+</div>
+
+<script>
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+
+</body>
+</html>

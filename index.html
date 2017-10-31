@@ -1,40 +1,50 @@
+<!DOCTYPE html>
+<html>
 <head>
-	<title> Revelation Interactive - Home</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-	<script type="text/javascript" src="js/main.js"></script>
+<title>RPUP | Home</title>
+<link rel="icon" href="favicon.ico"/>
+<link rel="stylesheet" type="text/css" href="main.css"/>
+
 </head>
-<header>
-    <h1>Revelation Interactive</h1>
-    <nav>
-      <a href="">Home</a>
-      <a href="">About</a>
-      <a href="">Projects</a>
-      <a href="">Contact</a>
-    </nav>
-  </header>
-  <div class="wrapper">
-    <section id='steezy'>
-      <h2>Welcome!</h2>
-	  <p>Welcome to Revelation Interactive, a group of freelance game programmers designing mods for MineCraft, and in the future, original games.</p>
-	  <p>Welcome to Revelation Interactive, a group of freelance game programmers designing mods for MineCraft, and in the future, original games.</p>
-	  <p>Welcome to Revelation Interactive, a group of freelance game programmers designing mods for MineCraft, and in the future, original games.</p>
-	  <p>Welcome to Revelation Interactive, a group of freelance game programmers designing mods for MineCraft, and in the future, original games.</p>
-	  <p>Welcome to Revelation Interactive, a group of freelance game programmers designing mods for MineCraft, and in the future, original games.</p>
-	  <p>Welcome to Revelation Interactive, a group of freelance game programmers designing mods for MineCraft, and in the future, original games.</p>
-	  <p>Welcome to Revelation Interactive, a group of freelance game programmers designing mods for MineCraft, and in the future, original games.</p>
-	  <p>Welcome to Revelation Interactive, a group of freelance game programmers designing mods for MineCraft, and in the future, original games.</p>
-	  <p>Welcome to Revelation Interactive, a group of freelance game programmers designing mods for MineCraft, and in the future, original games.</p>
-	  <p>Welcome to Revelation Interactive, a group of freelance game programmers designing mods for MineCraft, and in the future, original games.</p>
-	  <p>Welcome to Revelation Interactive, a group of freelance game programmers designing mods for MineCraft, and in the future, original games.</p>
-	  <p>Welcome to Revelation Interactive, a group of freelance game programmers designing mods for MineCraft, and in the future, original games.</p>
-	  <p>Welcome to Revelation Interactive, a group of freelance game programmers designing mods for MineCraft, and in the future, original games.</p>
-	  <p>Welcome to Revelation Interactive, a group of freelance game programmers designing mods for MineCraft, and in the future, original games.</p>
-	  <p>Welcome to Revelation Interactive, a group of freelance game programmers designing mods for MineCraft, and in the future, original games.</p>
-	  <p>Welcome to Revelation Interactive, a group of freelance game programmers designing mods for MineCraft, and in the future, original games.</p>
-	  <p>Welcome to Revelation Interactive, a group of freelance game programmers designing mods for MineCraft, and in the future, original games.</p>
-	  <p>Welcome to Revelation Interactive, a group of freelance game programmers designing mods for MineCraft, and in the future, original games.</p>
-	  <p>Welcome to Revelation Interactive, a group of freelance game programmers designing mods for MineCraft, and in the future, original games.</p>
-    </section>
-  </div>
+<body onscroll="myFunction()">
+
+<div class="header">
+  <h2>RPU Programming</h2>
+  <p>For the Betterment</p>
+</div>
+
+<div id="navbar">
+	<a class="active" href="javascript:void(0)">Home</a>
+	<a href="products.html">Products</a>
+	<a href="news.html">News</a>
+	<a href="javascript:void(0)">Contact</a>
+</div>
+
+<div class="content">
+  <h3>Home</h3>
+  <p>Welcome to the RPU Programming Division! Here we develop Roleplaying Games of Varying Genres, in hopes of increasing the library of games people have to roleplay on.</p>
+  <p>Welcome to the RPU Programming Division! Here we develop Roleplaying Games of Varying Genres, in hopes of increasing the library of games people have to roleplay on.</p>
+  <p>Welcome to the RPU Programming Division! Here we develop Roleplaying Games of Varying Genres, in hopes of increasing the library of games people have to roleplay on.</p>
+  <p>Welcome to the RPU Programming Division! Here we develop Roleplaying Games of Varying Genres, in hopes of increasing the library of games people have to roleplay on.</p>
+  <p>Welcome to the RPU Programming Division! Here we develop Roleplaying Games of Varying Genres, in hopes of increasing the library of games people have to roleplay on.</p>
+  <p>Welcome to the RPU Programming Division! Here we develop Roleplaying Games of Varying Genres, in hopes of increasing the library of games people have to roleplay on.</p>
+  <p>Welcome to the RPU Programming Division! Here we develop Roleplaying Games of Varying Genres, in hopes of increasing the library of games people have to roleplay on.</p>
+  <p>Welcome to the RPU Programming Division! Here we develop Roleplaying Games of Varying Genres, in hopes of increasing the library of games people have to roleplay on.</p>
+  <p>Welcome to the RPU Programming Division! Here we develop Roleplaying Games of Varying Genres, in hopes of increasing the library of games people have to roleplay on.</p>
+</div>
+
+<script>
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+
 </body>
+</html>

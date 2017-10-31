@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>RPUP | News</title>
+<link rel="icon" href="favicon.ico"/>
+<link rel="stylesheet" type="text/css" href="main.css"/>
+
+</head>
+<body onscroll="myFunction()">
+
+<div class="header">
+  <h2>RPU Programming</h2>
+  <p>For the Betterment</p>
+</div>
+
+<div id="navbar">
+  <a href="index.html">Home</a>
+	<a href="products.html">Products</a>
+  <a class="active" href="javascript:void(0)">News</a>
+  <a href="javascript:void(0)">Contact</a>
+</div>
+
+<div class="content">
+  <h3>News</h3>
+  <p>Welcome to the RPUP News. Here you will find updates on our games we post</p>
+	<div class"post">
+		<h4>Post</h4>
+		<p>Post Content</p>
+	</div>
+</div>
+
+<script>
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+
+</body>
+</html>

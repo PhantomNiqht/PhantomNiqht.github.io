@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>RPUP | Revival of Humanity</title>
+<link rel="icon" href="favicon.ico"/>
+<link rel="stylesheet" type="text/css" href="main.css"/>
+
+</head>
+<body onscroll="myFunction()">
+
+<div class="header">
+  <h2>RPU Programming</h2>
+  <p>For the Betterment</p>
+</div>
+
+<div id="navbar">
+	<a href="index.html">Home</a>
+	<a class="active" href="products.html">Products</a>
+	<a href="news.html">News</a>
+	<a href="javascript:void(0)">Contact</a>
+</div>
+
+<div class="content">
+	<h3>Revival of Humanity</h3>
+	<p>Welcome to Revival of Humanity, our first game to be developed. The World is Charred and Scorched by Nuclear Warfare and the Breakdown of Society, yet there may be a chance for a Revival of our Humanity...</p>
+</div>
+
+<script>
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+
+</body>
+</html>
